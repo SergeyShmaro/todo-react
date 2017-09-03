@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+  background-color: #323232;
+  min-width: 900px;
+}
+
+#root {
+  height: 100%;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #ecedee;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color:#da5151;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #4ed44e;
+}
+
+::-webkit-scrollbar{
+  border-radius: 7px;
+	height: 7px;
+	width: 7px;
+}

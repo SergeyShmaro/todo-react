@@ -1,0 +1,26 @@
+.addTask {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.addInput {
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5em;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    min-height: 28px;
+}
+
+.newBtn {
+    min-height: 38px;
+    background-color: #27EF5D;
+}
+
+.newBtn:hover {
+    background-color: #20C84D;
+    cursor: pointer;
+}
+
